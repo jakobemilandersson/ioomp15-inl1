@@ -16,7 +16,7 @@ int main() {
 
   vara_add(&vara1);
   printf("%s\n", vara1.namn);
-  return 0;
+  return 1;
 }
 
 void vara_add(struct varor *vara) {
